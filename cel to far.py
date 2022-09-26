@@ -1,4 +1,3 @@
-# program to convert celsius to far
-cel=int(input("enter the cel"))
-far =(cel*18)+32
-print("far is:",far)
+celsius=float(input(" enter the value in celsius"))
+fahernheit=(celsius*1.8)+32
+print('%2f celsius is: %0.2f fahreheit'%(celsius,fahernheit))
