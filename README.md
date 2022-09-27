@@ -34,3 +34,4 @@
 33. star pattern
 34. user name verification
 35. vote eligibility
+36. perfect number
