@@ -12,5 +12,10 @@ def maxProfit(price, n):
 		profit[i] = max(profit[i-1], profit[i]+(price[i]-min_price))
 	result = profit[n-1]
 	return result
-price = [2, 30, 15, 10, 8, 25, 80]
-print ("Maximum profit is", maxProfit(price, len(price)))
+input_string = input('Enter elements of a list separated by space ')
+print("\n")
+price_list = input_string.split()
+print('price = ', price_list)
+for i in range(len(price_list)):
+    price_list[i] = int(price_list[i])
+print ("Maximum profit is", maxProfit(price_list, len(price_list)))
