@@ -36,3 +36,8 @@
 35. vote eligibility
 36. perfect number
 37. upper lower counting (*)
+38. mth max and nth min
+39. counting and sum,diff of -ve and +ve number
+40. mirror 
+41. triangular array
+42. string match
