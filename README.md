@@ -41,3 +41,5 @@
 40. mirror 
 41. triangular array
 42. string match
+43. pattern in decimal
+44. first m perfect numbers and n factors
