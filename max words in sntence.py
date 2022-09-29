@@ -1,11 +1,16 @@
-b=int(input("Enter length of array:"))
-a=[]
-e=[]
-for i in range(0,b):
-    c=input("Enter the string")
-    a.append(c)
-for i in range(0,b):
-    d=len(a[i].split())
-    e.append(d)
-print("LIST =",a)
-print("MAX words in a string =",max(e))
+sentences=[]
+n=int(input("enter the number of sentences"))
+for i in range(n):
+    sent=input("enter the sentence")
+    sentences.append(sent)
+print(sentences)
+maxword=0
+cntlist=0
+list1=[]
+for i in range(n):
+    list1=sentences[i].split()
+    cntlist=len(list1)
+    if maxword<cntlist:
+        maxword=cntlist
+    
+print("maximum number of words that appear in a single sentence", maxword)
