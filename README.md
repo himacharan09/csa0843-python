@@ -47,4 +47,10 @@
 46. telephone
 47. simple intresst according too age
 48. sum square
-49. 
+49. max number of words in string
+50. palindrome
+51. m to n key skipping
+52. leap year
+53. number pattern
+54. matrix addition
+55.  combinations
