@@ -43,3 +43,8 @@
 42. string match
 43. pattern in decimal
 44. first m perfect numbers and n factors
+45. decimal pattern
+46. telephone
+47. simple intresst according too age
+48. sum square
+49. 
