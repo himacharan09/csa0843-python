@@ -1,10 +1,17 @@
-n=int(input("enter the numbers of words needed:"))
+n=int(input("enter number of words : "))
 words=[]
-print("enter the words:")
+print("enter the words")
 for i in range(0,n):
     y=str(input())
     words.append(y)
-print("the listed words are",words)
-words.sort()
-print("the sorted list is :",words)
-    
+print("words=",words)
+print("input your choice:")
+choice=input("assending or dessending :")
+if(choice == 'a'or choice == 'A'):
+    words.sort()
+    print("the ascending sorted list are : ",words)
+elif(choice == 'd' or choice == 'D'):
+    words.sort(reverse=True)
+    print("the descending sorted list are = ",words)
+else:
+    print("invalid input")
