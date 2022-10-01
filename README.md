@@ -58,3 +58,11 @@
 57. asscending or descending order
 58. number of vowels
 59. square and cube of decimal number 
+60. composite number 
+61. employee salary
+62. lcm and gcd
+63. frequency
+64. little robert
+65. count ptimes and composite
+66. vote eligibility
+67. pattern (%)
